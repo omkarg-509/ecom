@@ -1,0 +1,25 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.log
+*~
+
+# Ignore uploaded images (except placeholders)
+images/*.jpg
+images/*.jpeg
+images/*.png
+images/*.gif
+!images/placeholder.jpg
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore backup files
+*.bak
+*.backup
