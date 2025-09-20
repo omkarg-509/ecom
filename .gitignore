@@ -1,0 +1,34 @@
+# E-commerce Website .gitignore
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PHP specific
+*.log
+
+# User uploaded files (in a real project, you might want to exclude user uploads)
+# images/*.jpg
+# images/*.png
+# images/*.gif
+
+# Temporary files
+/tmp/
+*.tmp
+
+# Environment files (if you add them later)
+.env
+.env.local
+
+# Backup files
+*.bak
+*.backup
